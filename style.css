@@ -1,0 +1,81 @@
+/* 
+Color Scheme from Adobe Image
+#F252C8 pink
+#F2B279 light brown
+#BF6C3B mid brown
+#592E25 dark brown
+#D91E1E red
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    font-family: 'Macondo', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #592E25;
+}
+
+#hk-img {
+    height: 700px;
+}
+
+.img-sec {
+    width: max(35%, 400px);
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+#penta-img {
+    width: 100px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    background-color: rgba(255, 219, 219, 0.6);
+    width: 100%;
+}
+
+h6 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    width: max(400px, 55%);
+    height: 700px;
+}
+
+.info {
+    height: 30%;
+    background-color: #F2B279;
+    padding: 20px;
+
+}
+
+.main-form {
+    height: 40%;
+    background-color: #BF6C3B;
+}
+
+.btn-area {
+    height: 30%;
+    background-color: #F2B279;
+}
