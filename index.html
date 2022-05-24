@@ -40,10 +40,11 @@
             <label for="phone">Phone Number<input id="phone" type="text" inputmode="numeric" placeholder=" " required></label>
           </div>
           <div class="form-piece">
-            <label for="password1">Password<input id="password1" type="password" placeholder=" " required></label>
+            <label for="password1">Password<input minlength="8" maxlength="15" id="password1" type="password" placeholder=" " required></label>
+            <span id="message">*Password between 8 and 15 characters</span>
           </div>
           <div class="form-piece">
-            <label for="password2"> Confirm Password<input id="password2" type="password" placeholder=" " required></label>
+            <label for="password2"> Confirm Password<input minlength="8" maxlength="15" id="password2" type="password" placeholder=" " required></label>
           </div>
         </form>
         <div class="btn-area">
@@ -52,4 +53,10 @@
         </div>
     </section>
   </body>
+  <footer>
+    <br>
+    Made by Chad J Campbell - You can check out my <a href="https://github.com/chadjcampbell">GitHub Here</a>
+    <br>
+    <br>
+  </footer>
 </html>

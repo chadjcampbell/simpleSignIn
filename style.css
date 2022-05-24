@@ -21,6 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #592E25;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 #hk-img {
@@ -88,13 +90,13 @@ input {
 input:focus {
     border: 1px solid blue;
     outline: blue;
-    box-shadow: 10px 5px 5px blue;
+    box-shadow: 4px 2px 2px blue;
 }
 
 input:invalid:not(:focus):not(:placeholder-shown) {
     border: 1px solid red;
     background: pink;
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 4px 2px 2px red;
   }
   
 
@@ -137,3 +139,21 @@ input:invalid:not(:focus):not(:placeholder-shown) {
     background: pink;
     box-shadow: 10px 5px 5px red;
   }
+
+#message {
+    position: relative;
+    top: 5px;
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    height: 50px;
+    background-color: #BF6C3B;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    margin-top: 40px;
+}
