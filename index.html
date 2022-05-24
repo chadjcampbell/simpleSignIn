@@ -25,11 +25,30 @@
             <p>Do you have what it takes to cook food spicier than the 7th circle of hell?</p>
             <p>Sign up below to start your spicy culinary adveture</p>
         </div>
-        <form class="main-form" action="#" method="post">
-          
+        <form id="main-form" action="" method="post">
+          <p class="form-p">Let's get cooking!</p>
+          <div class="form-piece">
+            <label for="first-name">First Name<input id="first-name" type="text" placeholder=" " required></label>
+          </div>
+          <div class="form-piece">
+            <label for="last-name">Last Name<input id="last-name" type="text" placeholder=" " required></label>
+          </div>
+          <div class="form-piece">
+            <label for="email">Email<input id="email" type="email" placeholder=" " required></label>
+          </div>
+          <div class="form-piece">
+            <label for="phone">Phone Number<input id="phone" type="text" inputmode="numeric" placeholder=" " required></label>
+          </div>
+          <div class="form-piece">
+            <label for="password1">Password<input id="password1" type="password" placeholder=" " required></label>
+          </div>
+          <div class="form-piece">
+            <label for="password2"> Confirm Password<input id="password2" type="password" placeholder=" " required></label>
+          </div>
         </form>
         <div class="btn-area">
-
+          <button type="submit" id="submit" form="main-form">Create Account</button>
+          <p>Already a member?  <a href="">Log in</a> </p>
         </div>
     </section>
   </body>

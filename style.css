@@ -70,12 +70,70 @@ p {
 
 }
 
-.main-form {
-    height: 40%;
-    background-color: #BF6C3B;
-}
-
 .btn-area {
     height: 30%;
     background-color: #F2B279;
 }
+
+label, input {
+    display: block;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: blue;
+    box-shadow: 10px 5px 5px blue;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+    border: 1px solid red;
+    background: pink;
+    box-shadow: 10px 5px 5px red;
+  }
+  
+
+#main-form {
+    height: auto;
+    background-color: #BF6C3B;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.form-piece {
+    height: 100px;
+    width: 300px;
+}
+
+.form-p {
+    display: block;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.btn-area {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+   background-color: #F252C8;
+   font-size: 1rem;
+}
+
+.error {
+    border: 1px solid red;
+    background: pink;
+    box-shadow: 10px 5px 5px red;
+  }
