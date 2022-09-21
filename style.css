@@ -46,7 +46,6 @@ body {
     align-items: center;
     position: absolute;
     top: 30%;
-    background-color: rgba(255, 219, 219, 0.6);
     width: 100%;
 }
 
@@ -63,18 +62,17 @@ p {
     flex-direction: column;
     width: max(400px, 55%);
     height: 700px;
+    background-color: #F2B279;
 }
 
 .info {
     height: 30%;
-    background-color: #F2B279;
     padding: 20px;
 
 }
 
 .btn-area {
     height: 30%;
-    background-color: #F2B279;
 }
 
 label, input {
@@ -112,7 +110,10 @@ input:invalid:not(:focus):not(:placeholder-shown) {
 
 .form-piece {
     height: 100px;
+    min-width: 220px;
     width: 300px;
+    flex-basis: 30%;
+    padding: 10px;
 }
 
 .form-p {
@@ -124,6 +125,7 @@ input:invalid:not(:focus):not(:placeholder-shown) {
 .btn-area {
     padding-left: 60px;
     padding-top: 20px;
+    padding-bottom: 220px;
 }
 
 #submit {
@@ -146,14 +148,14 @@ input:invalid:not(:focus):not(:placeholder-shown) {
 }
 
 footer {
+    width: 90%;
     margin: 5px;
     padding: 5px;
-    width: 80%;
-    height: 50px;
+    height: 100px;
     background-color: #BF6C3B;
     font-size: 1rem;
     text-align: center;
-    position: fixed;
     bottom: 0px;
+    position: fixed;
     margin-top: 40px;
 }
